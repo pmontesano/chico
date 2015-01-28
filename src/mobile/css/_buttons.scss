@@ -26,7 +26,7 @@
 
 .ch-btn-action:active {
     background-color: $btn-action-active-bg-color;
-    @include background-image(linear-gradient($btn-action-active-bg-color, $btn-action-active-bottom-bg-color));    
+    @include background-image(linear-gradient($btn-action-active-bg-color, $btn-action-active-bottom-bg-color));
     border-color: $btn-action-border-active;
     box-shadow: $btn-action-active-box-shadow;
 }

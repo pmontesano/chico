@@ -13,26 +13,26 @@ $btn-cursor:								pointer;
 // ----- Normal state ----- //
 
 $btn-primary-text-color:					$main-neutral-color;
-$btn-primary-bg-color:						#3e52a1;
-$btn-primary-bg-color-secondary:			#2d3277;
-$btn-primary-active:  						#29358f;
+$btn-primary-bg-color:						#323E8F;
+$btn-primary-bg-color-secondary:			#323E8F;
+$btn-primary-active:  						#323E8F;
 $btn-primary-border:						#2d3277;
 $btn-primary-shadow:						#8ea2df;
-$btn-primary-box-shadow:					0 1px 0 #7a89e8;
+$btn-primary-box-shadow:					0 0;
 
 // ----- Hover state ----- //
 
 $btn-primary-box-hover:   					#4051d0;
-$btn-primary-box-hover-bg-color:			#4355d2;
-$btn-primary-box-hover-bg-color-secondary: 	#2f33ae;
-$btn-primary-hover-box-shadow:				0 1px 0 #7a89e8;
+$btn-primary-box-hover-bg-color:			#323E8F;
+$btn-primary-box-hover-bg-color-secondary: 	#323E8F;
+$btn-primary-hover-box-shadow:				0 0;
 
 // ----- Active state ----- //
 
-$btn-primary-active-bg-color:   			#292f66;
+$btn-primary-active-bg-color:   			#323E8F;
 $btn-primary-active-bg-color-secondary: 	#202388;
 $btn-primary-active-border:					#181e39;
-$btn-primary-active-box-shadow:				0 1px 6px #141452;
+$btn-primary-active-box-shadow:				0 0;
 
 // -------------------------------------
 //   Skin
@@ -45,23 +45,23 @@ $btn-secondary-bg-color:					#cce3f7;
 $btn-secondary-bg-color-secondary:  		#aaD0ef;
 $btn-secondary-border:						#79a8c7;
 $btn-secondary-active:  					#7c9cB2;
-$btn-secondary-shadow:						none;
-$btn-secondary-box-shadow:					0 1px 0 #e5f2fc;
-$btn-secondary-text-shadow:					0 1px 1px $main-text-shadow-color;
+$btn-secondary-shadow:						0 0;
+$btn-secondary-box-shadow:					0 0;
+$btn-secondary-text-shadow:					0 0;
 
 // ----- Hover state ----- //
 
-$btn-secondary-hover-bg-color:   			#dcecfb;
-$btn-secondary-hover-bg-color-secondary:	#c5dff5;
-$btn-secondary-hover-box-shadow:			0 1px 0 #e5f2fc;
+$btn-secondary-hover-bg-color:   			#BFD7FA;
+$btn-secondary-hover-bg-color-secondary:	#BFD7FA;
+$btn-secondary-hover-box-shadow:			0 0;
 
 // ----- Active state ----- //
 
 $btn-secondary-active-bg-color:				#a2c9e1;
 $btn-secondary-active-bg-color-secondary:	#7ab6dc;
-$btn-secondary-shadow-active:				#476274;
+$btn-secondary-shadow-active:				0 0;
 $btn-secondary-border-active:				#79a8c7;
-$btn-secondary-active-box-shadow:			0 1px 6px #476274;
+$btn-secondary-active-box-shadow:			0 0;
 
 // ----- Disabled state ----- //
 
@@ -69,10 +69,10 @@ $btn-disabled-color:						$gray-500;
 $btn-disabled-bg-color:						$gray-50;
 $btn-disabled-bg-color-secondary: 			$gray-400;
 $btn-disabled-border:						$gray-500;
-$btn-disabled-text-shadow:					none;
+$btn-disabled-text-shadow:					0 0;
 $btn-disabled-text-color:					$gray-700;
 $btn-disabled-opacity:						0.5;
-$btn-disabled-box-shadow:					0 1px 1px $main-neutral-color;
+$btn-disabled-box-shadow:					0 0;
 
-$btn-text-size:		    					$font__large;
-$btn-large-text-size:		    			$font__x__large;
+$btn-text-size:		    					$font__medium;
+$btn-large-text-size:		    			$font__medium;
