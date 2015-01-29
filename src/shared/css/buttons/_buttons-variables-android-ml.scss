@@ -5,6 +5,20 @@
 // *************************************
 
 // -------------------------------------
+//   General
+// -------------------------------------
+
+// Android OS font: Roboto //
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,300");
+
+$btn-text-family: "Roboto", sans-serif;
+$btn-border-radius: 2px;
+$btn-box-shadow: 0,0,0,none;
+$btn-text-decoration: none;
+$btn-text-size: $font__medium;
+$btn-large-text-size: $font__medium;
+
+// -------------------------------------
 //   Primary
 // -------------------------------------
 
@@ -40,7 +54,7 @@ $btn-primary-active-box-shadow:				0 0;
 
 // ----- Normal state ----- //
 
-$btn-secondary-text-color:					#476274;
+$btn-secondary-text-color:					#5A7286;
 $btn-secondary-bg-color:					#cce3f7;
 $btn-secondary-bg-color-secondary:  		#aaD0ef;
 $btn-secondary-border:						#79a8c7;
@@ -51,14 +65,14 @@ $btn-secondary-text-shadow:					0 0;
 
 // ----- Hover state ----- //
 
-$btn-secondary-hover-bg-color:   			#BFD7FA;
-$btn-secondary-hover-bg-color-secondary:	#BFD7FA;
+$btn-secondary-hover-bg-color:   			#323E8F;
+$btn-secondary-hover-bg-color-secondary:	#323E8F;
 $btn-secondary-hover-box-shadow:			0 0;
 
 // ----- Active state ----- //
 
-$btn-secondary-active-bg-color:				#a2c9e1;
-$btn-secondary-active-bg-color-secondary:	#7ab6dc;
+$btn-secondary-active-bg-color:				#181B3E;
+$btn-secondary-active-bg-color-secondary:	#181B3E;
 $btn-secondary-shadow-active:				0 0;
 $btn-secondary-border-active:				#79a8c7;
 $btn-secondary-active-box-shadow:			0 0;
@@ -74,5 +88,8 @@ $btn-disabled-text-color:					$gray-700;
 $btn-disabled-opacity:						0.5;
 $btn-disabled-box-shadow:					0 0;
 
-$btn-text-size:		    					$font__medium;
-$btn-large-text-size:		    			$font__medium;
+// ----- Active state ----- //
+
+$btn-outline-style: thin dotted;
+$btn-outline: 5px auto -webkit-focus-ring-color;
+$btn-outline-offset: -2px;

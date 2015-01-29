@@ -49,21 +49,25 @@ table {
  * Base
  */
 /*
-Error: Undefined variable: "$btn-text-family".
-        on line 11 of src/shared/css/_buttons.scss
-        from line 44 of ./src/ui/css/ui-theme.scss
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
 
-6: @import '../../shared/css/common/mixines';
-7: 
-8: @import '../../shared/css/common/variables-ml';
-9: 
-10: // Meyer's Reset
-11: //---------------------------------------------------------------
-12: 
-13: @import '../../shared/css/reset';
-14: @import 'reset';
-15: 
-16: // Utils
+body {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  padding: 0 10px;
+  /* Prevent layout "sticking" to the edge of the browser */
+  background-color: #FFF;
+  color: #333;
+  margin: 0 auto; }
 
 /**
  * Misc
@@ -651,7 +655,7 @@ body {
 [class*="ch-btn"]:focus {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   border-radius: 4px;
-  box-shadow: 0,0,0,none;
+  box-shadow: 0, 0, 0, none;
   cursor: pointer;
   display: inline-block;
   height: auto;
@@ -674,11 +678,11 @@ button:focus {
 .ch-btn,
 .ch-btn:focus,
 .ch-btn:visited {
-  background-color: #3e52a1;
-  background-image: -webkit-linear-gradient(#3e52a1, #2d3277);
-  background-image: linear-gradient(#3e52a1, #2d3277);
-  box-shadow: 0 1px 0 #7a89e8 inset;
-  border: 1px solid #2d3277;
+  background-color: #323E8F;
+  background-image: -webkit-linear-gradient(#323E8F, #323E8F);
+  background-image: linear-gradient(#323E8F, #323E8F);
+  box-shadow: 0 0;
+  border: #2d3277;
   color: #fff; }
 
 .ch-btn-skin,
@@ -687,10 +691,10 @@ button:focus {
   background-color: #cce3f7;
   background-image: -webkit-linear-gradient(#cce3f7, #aaD0ef);
   background-image: linear-gradient(#cce3f7, #aaD0ef);
-  border: 1px solid #79a8c7;
-  box-shadow: 0 1px 0 #e5f2fc inset;
+  border: #79a8c7;
+  box-shadow: 0 0;
   color: #476274;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5); }
+  text-shadow: 0 0; }
 
 /* Hover */
 .ch-btn:hover,
@@ -699,30 +703,30 @@ button:focus {
 
 /* Colors on Hover */
 .ch-btn:hover {
-  background-color: #4355d2;
-  background-image: -webkit-linear-gradient(#4355d2, #2f33ae);
-  background-image: linear-gradient(#4355d2, #2f33ae);
-  box-shadow: 0 1px 0 #7a89e8 inset; }
+  background-color: #323E8F;
+  background-image: -webkit-linear-gradient(#323E8F, #323E8F);
+  background-image: linear-gradient(#323E8F, #323E8F);
+  box-shadow: 0 0; }
 
 .ch-btn-skin:hover {
-  background-color: #dcecfb;
-  background-image: -webkit-linear-gradient(#dcecfb, #c5dff5);
-  background-image: linear-gradient(#dcecfb, #c5dff5);
-  box-shadow: 0 1px 0 #e5f2fc inset; }
+  background-color: #BFD7FA;
+  background-image: -webkit-linear-gradient(#BFD7FA, #BFD7FA);
+  background-image: linear-gradient(#BFD7FA, #BFD7FA);
+  box-shadow: 0 0; }
 
 /* Colors on Active */
 .ch-btn:active {
-  background-color: #292f66;
-  background-image: -webkit-linear-gradient(#292f66, #202388);
-  background-image: linear-gradient(#292f66, #202388);
-  box-shadow: 0 1px 6px #141452 inset;
+  background-color: #323E8F;
+  background-image: -webkit-linear-gradient(#323E8F, #202388);
+  background-image: linear-gradient(#323E8F, #202388);
+  box-shadow: 0 0;
   border-color: #181e39; }
 
 .ch-btn-skin:active {
   background-color: #a2c9e1;
   background-image: -webkit-linear-gradient(#a2c9e1, #7ab6dc);
   background-image: linear-gradient(#a2c9e1, #7ab6dc);
-  box-shadow: 0 1px 6px #476274 inset;
+  box-shadow: 0 0;
   border-color: #79a8c7; }
 
 /* Size */
@@ -750,15 +754,15 @@ input.ch-btn-small::-moz-focus-inner {
   background-color: #F9F9F9;
   background-image: -webkit-linear-gradient(#F9F9F9, #dedede);
   background-image: linear-gradient(#F9F9F9, #dedede);
-  border: 1px solid #cdcdcd !important;
+  border: #cdcdcd !important;
   /* important for links */
-  box-shadow: 0 1px 1px #fff inset;
+  box-shadow: 0 0 inset;
   color: #999 !important;
   /* important for links */
   cursor: not-allowed;
   opacity: 0.5;
   filter: alpha(opacity=50);
-  text-shadow: none; }
+  text-shadow: 0 0; }
 
 /**
  * Buttons
