@@ -8,11 +8,8 @@
 //   General
 // -------------------------------------
 
-// Android OS font: Roboto //
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,300");
-
 $btn-text-family: "Roboto", sans-serif;
-$btn-border-radius: 2px;
+$btn-border-radius: 4px;
 $btn-box-shadow: 0,0,0,none;
 $btn-text-decoration: none;
 $btn-text-size: $font__medium;
@@ -79,13 +76,12 @@ $btn-secondary-active-box-shadow:			0 0;
 
 // ----- Disabled state ----- //
 
-$btn-disabled-color:						$gray-500;
-$btn-disabled-bg-color:						$gray-50;
-$btn-disabled-bg-color-secondary: 			$gray-400;
+$btn-disabled-bg-color:						#999;
+$btn-disabled-bg-color-secondary: 			#999;
 $btn-disabled-border:						$gray-500;
 $btn-disabled-text-shadow:					0 0;
-$btn-disabled-text-color:					$gray-700;
-$btn-disabled-opacity:						0.5;
+$btn-disabled-text-color:					#333;
+$btn-disabled-opacity:						0.3;
 $btn-disabled-box-shadow:					0 0;
 
 // ----- Active state ----- //
