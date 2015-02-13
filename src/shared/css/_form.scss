@@ -77,12 +77,15 @@ input[type="password"],
 textarea,
 select[multiple],
 .ch-form-select-multiple {
+    background: $input-bg-color;
     border: $generic-input-border;
-    border-radius: 3px;
+    border-width: $generic-input-border-width;
+    border-radius: $generic-input-border-radius;
     padding: $generic-input-padding;
 
     &:focus {
         border: $generic-input-focus-border;
+        border-width: $generic-input-focus-border-width;
         padding: $generic-input-focus-padding;
         outline: 0;
     }
@@ -167,7 +170,7 @@ input.ch-form-icon-input:focus {
     label {
         display:inline-block;
         position:relative;
-        padding: $input-row-label-padding; 
+        padding: $input-row-label-padding;
     }
 }
 

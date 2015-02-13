@@ -99,8 +99,10 @@ input[type="checkbox"]:focus {
 /* Select */
 .ch-form-row select {
     height: $select-height;
+    background-color: $select-bg-color;
     border-color: $select-border-color;
-    margin: $select-margin
+    border-width: $select-border-width;
+    margin: $select-margin;
 }
 
 /* Select Multiple */

@@ -28,9 +28,9 @@ $label-padding: 2px;
 // ----- Select ----- //
 
 $select-height:	36px;
-$select-bg-color: #FFF;
+$select-bg-color: transparent;
 $select-border-color: $gray-500;
-$select-border-width: 1px;
+$select-border-width: 0 0 1px;
 $select-margin:	0 0 5px 0;
 
 // ----- Hint text ----- //

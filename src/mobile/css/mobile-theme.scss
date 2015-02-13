@@ -11,7 +11,7 @@
 // ----------------------------------------------------------------
 
 // Shared
-@import '../../shared/css/reset/reset-variables-ml';
+@import '../../shared/css/reset/reset-variables-android-ml';
 @import '../../shared/css/reset';
 // Mobile (do not use variables)
 @import 'reset';
@@ -50,20 +50,20 @@
 // ------------------------------------------------------
 
 // Shared
-@import '../../shared/css/boxes/boxes-variables-ml';
+@import '../../shared/css/boxes/boxes-variables-android-ml';
 @import '../../shared/css/boxes';
 // Mobile
-@import 'boxes/boxes-variables-ml';
+@import 'boxes/boxes-variables-android-ml';
 @import 'boxes';
 
 // >> Buttons
 // ------------------------------------------------------
 
 // Shared
-@import '../../shared/css/buttons/buttons-variables-ml';
+@import '../../shared/css/buttons/buttons-variables-android-ml';
 @import '../../shared/css/buttons';
 // Mobile
-@import 'buttons/buttons-variables-ml';
+@import 'buttons/buttons-variables-android-ml';
 @import 'buttons';
 
 // >> Carousel
@@ -91,17 +91,17 @@
 // ------------------------------------------------------
 
 // Mobile
-@import 'expandable/expandable-variables-ml';
+@import 'expandable/expandable-variables-android-ml';
 @import 'expandable';
 
 // >> Forms
 // ------------------------------------------------------
 
 // Shared
-@import '../../shared/css/form/form-variables-ml';
+@import '../../shared/css/form/form-variables-android-ml';
 @import '../../shared/css/form';
 // Mobile
-@import 'form/form-variables-ml';
+@import 'form/form-variables-android-ml';
 @import 'form';
 
 // >> Lists

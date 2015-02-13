@@ -15,6 +15,7 @@ table {
 .ch-datagrid-controls,
 .ch-datagrid {
     width: 100%;
+    background-color: #FFF;
     border: $table-border;
     text-align: $table-text-align;
 }
@@ -51,7 +52,7 @@ table {
     cursor: pointer;
 
     &:hover {
-        background: $table-header-controls-hover-bg-color;   
+        background: $table-header-controls-hover-bg-color;
     }
 }
 
@@ -72,7 +73,7 @@ table {
     &:after {
         font-family: icons;
         font-style: normal;
-        content: "\f0dc";       
+        content: "\f0dc";
     }
 }
 

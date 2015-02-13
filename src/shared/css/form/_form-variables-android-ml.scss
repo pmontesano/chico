@@ -17,17 +17,17 @@ $form-actions-text-align: left;
 //   Form inputs (input, textarea, select)
 // -------------------------------------
 
-$input-bg-color: #FFF;
+$input-bg-color: transparent;
 $generic-input-border: 1px solid $gray-500;
-$generic-input-border-width: 1px;
-$generic-input-border-radius: 3px;
+$generic-input-border-width: 0 0 1px;
+$generic-input-border-radius: 0;
 $generic-input-padding:	6px;
 
 // ----- Focus state ----- //
 
-$generic-input-focus-border: 2px solid $gray-700;
-$generic-input-focus-border-width: 2px;
-$generic-input-focus-padding: 5px;
+$generic-input-focus-border: 1px solid #33B5E5;
+$generic-input-focus-border-width: 0 0 1px;
+$generic-input-focus-padding: 6px;
 
 // ----- Input outline ----- //
 // types file, checkbox, range, radio & select //
@@ -108,7 +108,7 @@ $input-disabled-bg-color: $gray-100;
 
 $input-big-padding: 12px 10px;
 $input-big-margin: 5px 0;
-$input-big-border-radius: 3px;
+$input-big-border-radius: 0;
 
 // ----- Focus state ----- //
 
